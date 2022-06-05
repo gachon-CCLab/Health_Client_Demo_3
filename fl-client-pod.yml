@@ -6,12 +6,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: fl-client2
-  replicas: 2 # tells deployment to run 2 pods matching the template
+      app: fl-client-3
+  replicas: 1 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
-        app: fl-client2
+        app: fl-client-3
     spec:
       volumes:
         - name: shared-train-data # 학습데이터 저장용
