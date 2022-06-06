@@ -53,7 +53,7 @@ spec:
             - name: REPO_URL
               value: "https://github.com/gachon-CCLab/Health_Client_Manager.git"
             - name: GIT_TAG
-              value: "main"
+              value: "master"
             volumeMounts:
               - name: shared-model
                 mountPath: /model #write
