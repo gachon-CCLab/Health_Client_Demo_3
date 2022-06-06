@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flclient-deployment
+  name: fl-client-deployment-3
 spec:
   selector:
     matchLabels:
