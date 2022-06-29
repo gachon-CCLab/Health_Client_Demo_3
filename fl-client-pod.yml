@@ -48,7 +48,7 @@ spec:
                 memory: "2Gi"
                 cpu: "500m"
             ports:
-              - containerPort: 8080
+              - containerPort: 8003
             env:
             - name: REPO_URL
               value: "https://github.com/gachon-CCLab/Health_Client_Manager.git"
